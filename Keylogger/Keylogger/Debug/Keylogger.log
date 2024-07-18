@@ -1,0 +1,14 @@
+﻿  main.cpp
+C:\Users\dn478\Downloads\Keylogger\Keylogger\Keylogger\main.cpp(43,3): error C2664: 'int GetWindowTextW(HWND,LPWSTR,int)': cannot convert argument 2 from 'char [256]' to 'LPWSTR'
+C:\Users\dn478\Downloads\Keylogger\Keylogger\Keylogger\main.cpp(43,29): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winuser.h(8931,1): message : see declaration of 'GetWindowTextW'
+C:\Users\dn478\Downloads\Keylogger\Keylogger\Keylogger\main.cpp(43,3): message : while trying to match the argument list '(HWND, char [256], int)'
+C:\Users\dn478\Downloads\Keylogger\Keylogger\Keylogger\main.cpp(106,12): error C2660: 'MapVirtualKeyA': function does not take 3 arguments
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winuser.h(6855,1): message : see declaration of 'MapVirtualKeyA'
+C:\Users\dn478\Downloads\Keylogger\Keylogger\Keylogger\main.cpp(106,12): message : while trying to match the argument list '(int, int, HKL)'
+C:\Users\dn478\Downloads\Keylogger\Keylogger\Keylogger\main.cpp(50,20): error C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\dn478\Downloads\Keylogger\Keylogger\Keylogger\main.cpp(133,5): error C2601: 'main': local function definitions are illegal
+C:\Users\dn478\Downloads\Keylogger\Keylogger\Keylogger\main.cpp(121): message : this line contains a '{' which has not yet been matched
+C:\Users\dn478\Downloads\Keylogger\Keylogger\Keylogger\main.cpp(140,20): error C2015: too many characters in constant
+C:\Users\dn478\Downloads\Keylogger\Keylogger\Keylogger\main.cpp(140,49): error C2015: too many characters in constant
+C:\Users\dn478\Downloads\Keylogger\Keylogger\Keylogger\main.cpp(121): fatal  error C1075: '{': no matching token found
